@@ -1,0 +1,28 @@
+* {
+  width: auto;
+  height: auto;
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 2;
+}
+h1 {
+  width: auto;
+  height: auto;
+  color: rgb(75, 35, 35);
+  text-align: center;
+}
+
+body {
+  background-color: #cae18a;
+}
+
+svg path {
+  fill: #006284;
+  stroke: #eee;
+  stroke-width: 0.25;
+}
+svg path:hover {
+  fill: rgb(62, 75, 172);
+  transition: fill 0.6s;
+  cursor: pointer;
+}
